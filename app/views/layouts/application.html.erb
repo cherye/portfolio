@@ -1,0 +1,53 @@
+<body>
+<html>
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <title>Portfolio</title>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  
+  <style>
+  
+</style>
+  
+</head>
+<body>
+  
+ <div class="header">
+<div class="menu col-xs-8"> 
+<ul> 
+<li><a href="/">Welcome</a></li> 
+<li><a href="portfolio">Portfolio</a></li> 
+<li><a href="https://www.blogger.com">Blog</a></li> 
+<li><a href="about">About</a></li> 
+<li><a href="contact">Contact</a></li> </ul> 
+   </div>
+  </div>
+  
+<%= yield %>
+  
+  
+  <div class="footer"> 
+<div class="container"> 
+<ul class="social_media"> 
+<li><a class="github" href="https://github.com/"> <img border="0" alt="github" src="http://blog.incipio.com/wp-content/uploads/2015/01/best-resources-for-github.png" width="40">
+</a>
+</li>
+
+<li><a class="linkedin" href="https://www.linkedin.com/uas/login"> <img border="0" alt="linkedin" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="40">
+</a>
+</li> 
+
+<li><a class="twitter" href="https://twitter.com/"> <img border="0" alt="twitter" src="https://cnet2.cbsistatic.com/img/NcgyXkNieAHP9EEV9wXf_L7Ampo=/270x0/2012/10/02/ba9a281f-fdb4-11e2-8c7c-d4ae52e62bcc/twitter.png" width="40">
+</a>
+</li> 
+
+</ul> 
+<p>&copy; 2016 Natalie</p> 
+</div> 
+</div> 
+  
+</body>
+</html>
